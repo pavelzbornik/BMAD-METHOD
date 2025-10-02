@@ -46,3 +46,15 @@ test-project-install/*
 sample-project/*
 flattened-codebase.xml
 *.stats.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
