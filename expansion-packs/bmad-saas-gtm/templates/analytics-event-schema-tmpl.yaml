@@ -1,0 +1,11 @@
+# Analytics event schema template
+name: analytics-event-schema
+description: Standardized event schema template for analytics and engineering alignment.
+events:
+  - name: string
+    description: string
+    properties:
+      - name: string
+        type: string
+        required: boolean
+        description: string

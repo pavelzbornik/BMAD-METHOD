@@ -1,0 +1,20 @@
+# <!-- Powered by BMAD™ Core -->
+bundle:
+  name: SaaS Go-To-Market Team
+  icon: 🚀
+  description: Team composition recommended for SaaS GTM, growth, and success work.
+agents:
+  - brand-strategist
+  - product-marketing-manager
+  - ux-copywriter
+  - analytics-experimentation
+  - customer-success-architect
+  - seo-strategist
+  - growth-marketer
+workflows:
+  - experiment-playbook.md
+  - launch-playbook.md
+  - landing-page-launch.md
+  - seo-content-publishing.md
+  - onboarding-handoff.md
+  - funnel-optimization.md
