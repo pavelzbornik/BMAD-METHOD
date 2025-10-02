@@ -3,7 +3,7 @@ name: BMAD SaaS Go-To-Market & Success
 version: 0.1.0
 description: >-
   Expansion pack with non-technical personas, templates and playbooks for SaaS go-to-market,
-  growth and customer success. Designed to complement BMAD Core for Django + HTMX SaaS.
+  growth and customer success. Designed to complement BMAD Core for SaaS product teams.
 author: pavelzbornik
 requires:
   - bmad-core

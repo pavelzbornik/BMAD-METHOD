@@ -1,6 +1,6 @@
 # BMAD SaaS Go-To-Market & Success Expansion Pack
 
-This expansion pack adds non-technical personas focused on product success, growth, and retention for a Django + HTMX SaaS.
+This expansion pack adds non-technical personas focused on product success, growth, and retention for SaaS product teams.
 
 ## Personas Added
 
