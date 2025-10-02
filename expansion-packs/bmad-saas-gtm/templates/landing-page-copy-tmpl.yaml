@@ -1,0 +1,35 @@
+template:
+  id: landing-page-copy
+  name: Landing Page Copy
+  version: 1.0
+  output: landing-page-copy.md
+workflow:
+  interaction: sequential
+sections:
+  - id: meta
+    title: Meta & SEO
+    instruction: Title tag (<60 chars), meta description (<155), OG tag suggestions.
+  - id: hero
+    title: Hero Section
+    instruction: Headline (benefit-led), subheadline (context), primary CTA, optional secondary CTA.
+  - id: social-proof
+    title: Social Proof
+    instruction: Logos, testimonial snippet, trust badges.
+  - id: problem-section
+    title: Problem Amplification
+    instruction: 3–4 bullet tensions, emotional + economic framing.
+  - id: solution
+    title: Solution Snapshot
+    instruction: One-liner + structured feature summary.
+  - id: feature-panels
+    title: Feature Panels
+    instruction: 3–5 panels (Feature → Outcome → Proof).
+  - id: pricing-preframe
+    title: Pricing Preframe
+    instruction: Set value anchoring & ROI logic pre-price page.
+  - id: faq
+    title: FAQ
+    instruction: 5–8 high friction blockers resolved.
+  - id: final-cta
+    title: Final CTA Block
+    instruction: Restate value, urgency cue, CTA variant test ideas.

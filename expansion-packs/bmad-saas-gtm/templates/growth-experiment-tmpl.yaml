@@ -1,0 +1,26 @@
+template:
+  id: growth-experiment
+  name: Growth Experiment Brief
+  version: 1.0
+  output: experiment-brief.md
+sections:
+  - id: summary
+    title: Summary
+    instruction: One-sentence hypothesis statement.
+  - id: hypothesis
+    title: Hypothesis Detail
+    instruction: If we do X for audience Y, metric Z will change by Δ because mechanism M.
+  - id: metric-design
+    title: Metric Design
+    instruction: Primary, secondary, guardrails; formula & event dependencies.
+  - id: implementation-plan
+    title: Implementation Plan
+    instruction: Steps, owners, instrumentation, rollout slice.
+  - id: risk
+    title: Risk & Ethical Considerations
+  - id: success-criteria
+    title: Success / Kill Criteria
+    instruction: Pre-commit thresholds.
+  - id: analysis-plan
+    title: Analysis Plan
+    instruction: Statistical test, minimum runtime, segmentation slices.

@@ -1,0 +1,30 @@
+template:
+  id: launch-plan
+  name: Launch Plan
+  version: 1.0
+  output: launch-plan.md
+sections:
+  - id: executive-summary
+    title: Executive summary
+    instruction: One-paragraph summary of launch goals, target ICP and success metrics.
+  - id: objectives
+    title: Objectives & success metrics
+    instruction: List primary objectives and measurable KPIs for launch and 30/90/180 day windows.
+  - id: audience
+    title: Target audience
+    instruction: Define ICP segments, personas, and priority channels for initial rollout.
+  - id: positioning
+    title: Launch positioning & messaging ladder
+    instruction: Core value props, differentiation pillars, and key proof points.
+  - id: timeline
+    title: Timeline & milestones
+    instruction: High-level timeline with owner and deliverable for each milestone.
+  - id: go-to-market-activities
+    title: GTM activities
+    instruction: Cross-functional launch activities (product, sales, comms, support, docs). Map owners and dates.
+  - id: measurement
+    title: Measurement & instrumentation
+    instruction: Primary metrics to track, dashboards to create and instrumentation owners.
+  - id: risk-mitigation
+    title: Risks & mitigations
+    instruction: List top risks and mitigation steps.

@@ -1,0 +1,28 @@
+template:
+  id: messaging-framework
+  name: Messaging Framework
+  version: 1.0
+  output: messaging-framework.md
+workflow:
+  interaction: sequential
+sections:
+  - id: icp-table
+    title: ICP Summary Table
+    type: table
+    columns: [Segment, Core Pain, Desired Outcome, Primary Objection, Key Proof]
+  - id: value-ladder
+    title: Value Ladder
+    instruction: "Layer benefits: Functional → Business → Strategic."
+  - id: problem-language
+    title: Problem Language
+    instruction: Phrases prospects use pre-solution awareness.
+  - id: benefit-matrix
+    title: Benefit Matrix
+    type: table
+    columns: [Feature, Benefit, Proof Point, Message Angle, CTA Hint]
+  - id: objection-handling
+    title: Objection Handling
+    template: "- **Objection:** {{objection}} → **Response:** {{response}}"
+  - id: proof-assets
+    title: Proof Assets Needed
+    instruction: List case study themes, data points, social proof gaps.

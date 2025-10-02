@@ -1,0 +1,47 @@
+# Experiment result brief template
+name: experiment-result-brief
+description: >-
+  Minimal, structured brief capturing outcome and recommended decision after a growth/feature experiment.
+fields:
+  experiment_id:
+    type: string
+    description: Unique experiment identifier
+  title:
+    type: string
+    description: Short, human-friendly title for the experiment
+  hypothesis:
+    type: text
+    description: Statement of the testable hypothesis
+  primary_metric:
+    name: string
+    baseline: number
+    result: number
+    delta: number
+    unit: string
+  guardrails:
+    - name: string
+      baseline: number
+      result: number
+  variants:
+    - name: string
+      allocation_percent: number
+      effect: number
+      p_value: number
+  sample_size:
+    type: integer
+    description: Total unique users in the analysis window
+  duration:
+    type: string
+    description: Testing window (start/end dates)
+  significance:
+    type: string
+    description: Short note about statistical significance and methodology
+  key_findings:
+    type: text
+  recommendation:
+    type: text
+    description: Product / marketing decision and next steps
+artifacts:
+  - dashboard_url: string
+  - raw_data_export: string
+  - analysis_notebook: string

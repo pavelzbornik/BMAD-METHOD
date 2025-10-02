@@ -1,0 +1,27 @@
+template:
+  id: seo-content-brief
+  name: SEO Content Brief
+  version: 1.0
+  output: seo-content-brief.md
+sections:
+  - id: target-query
+    title: Target Query & Intent
+    instruction: Classify intent (Problem / Solution / Comparison / Navigational).
+  - id: semantic-support
+    title: Semantic Support Terms
+    instruction: List related entities & phrases for coverage.
+  - id: user-angle
+    title: User Angle
+    instruction: State user scenario & emotional drivers.
+  - id: outline
+    title: Outline
+    instruction: H1 + H2/H3 structure with estimated word counts.
+  - id: competitors
+    title: Competitor SERP Notes
+    instruction: Gaps & differentiation approach.
+  - id: internal-linking
+    title: Internal Linking Plan
+    instruction: Pages to link FROM and TO; anchor text strategy.
+  - id: schema
+    title: Structured Data
+    instruction: Suggested schema types.
