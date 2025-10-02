@@ -1,0 +1,1 @@
+expansion-packs/bmad-saas-gtm/tasks/activation-friction-audit.md

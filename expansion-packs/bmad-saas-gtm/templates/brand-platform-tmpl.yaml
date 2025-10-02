@@ -1,0 +1,39 @@
+template:
+  id: brand-platform
+  name: Brand Platform
+  version: 1.0
+  output: brand-platform.md
+workflow:
+  interaction: sequential
+sections:
+  - id: overview
+    title: Brand Overview
+    instruction: Summarize brand essence in 3–4 sentences.
+    elicit: true
+  - id: positioning-statement
+    title: Positioning Statement
+    instruction: Provide classic formula & distilled variant (≤140 chars).
+    elicit: true
+  - id: audience
+    title: Primary Audiences
+    instruction: List segments + core motivation & adoption trigger.
+  - id: differentiation
+    title: Differentiation Pillars
+    instruction: 3–5 pillars with evidence & messaging angle.
+    template: "- **{{pillar}}:** {{description}}"
+    elicit: true
+  - id: tone-voice
+    title: Tone & Voice Pillars
+    instruction: List pillars + modulation rules (formal vs casual contexts).
+  - id: naming-system
+    title: Naming System
+    instruction: Explain product/module naming taxonomy + forbidden patterns.
+  - id: narrative-arc
+    title: Core Narrative Arc
+    instruction: Problem → Shift → Solution → Value Realization → Future Vision.
+  - id: linguistic-assets
+    title: Linguistic Assets
+    instruction: Proprietary phrases, taglines, value shorthand.
+  - id: visual-cues
+    title: Visual Cues (Descriptive)
+    instruction: Describe key visual signals (not design file) — color themes, shape language, icon style.

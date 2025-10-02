@@ -1,0 +1,25 @@
+template:
+  id: onboarding-journey-map
+  name: Onboarding Journey Map
+  version: 1.0
+  output: onboarding-journey-map.md
+sections:
+  - id: activation-definition
+    title: Activation Definition
+    instruction: Define activation event & rationale.
+  - id: stages
+    title: Stages
+    type: table
+    columns: [Stage, User Goal, System Support, Friction Risk, Instrumentation]
+  - id: milestone-messages
+    title: Milestone Messages
+    instruction: Message triggers & copy summary.
+  - id: channel-mix
+    title: Channel Mix
+    instruction: In-app vs email vs docs vs community utilization.
+  - id: success-metrics
+    title: Success Metrics
+    instruction: Stage conversion, TTFV, retention lag measures.
+  - id: improvement-backlog
+    title: Improvement Backlog
+    instruction: Ordered list with impact & effort rating.
